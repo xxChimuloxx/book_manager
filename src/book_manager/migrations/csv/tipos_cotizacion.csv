@@ -1,0 +1,11 @@
+id,nombre,descripcion
+1,Oficial,Cotización oficial fijada por el BCRA sin impuestos
+2,Blue,Cotización del mercado paralelo o informal
+3,MEP,Mercado Electrónico de Pagos para compra de bonos
+4,CCL,Contado con Liquidación para operar en el exterior
+5,Tarjeta,Cotización para consumos en moneda extranjera con tarjeta
+6,Cripto,Cotización implícita en la compraventa de criptomonedas estables
+7,Mayorista,Cotización utilizada por bancos y grandes empresas
+8,Solidario,Cotización oficial más impuesto PAIS y percepciones
+9,Turista,Cotización para viajes y gastos en el exterior
+10,Ahorro,Cotización para atesoramiento con límite mensual
