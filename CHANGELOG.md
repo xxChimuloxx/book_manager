@@ -1,5 +1,16 @@
 # Changelog
 
+## Versión 1.1.2 - Consola con texto simple
+
+- Eliminación de iconos en los mensajes de altas, modificaciones y bajas.
+- Encabezado de consola con separadores de texto y versión actualizada.
+
+## Versión 1.1.1 - Inicio compatible con el notebook
+
+- `main(import_default_data=False)` carga semillas sólo si no existe estado previo.
+- Se conservan los datos guardados con ambos valores del parámetro.
+- Entrega de los ocho CSV de precarga, incluido `cotizaciones.csv`.
+
 ## Versión 1.1.0 - Correcciones de Sprint 1
 
 - Persistencia real en CSV para las ocho entidades, con recuperación al reiniciar.

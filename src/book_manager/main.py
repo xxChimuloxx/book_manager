@@ -49,9 +49,14 @@ def crear_sistema(
 def main(
     import_default_data: bool = True, data_dir: str | Path | None = None
 ) -> None:
-    """Inicia o restaura. False omite la precarga de una carpeta nueva."""
+    """Inicia con semillas si no hay estado previo; luego restaura los CSV.
+
+    import_default_data se conserva por compatibilidad con el notebook fijo.
+    Incluso con False, el primer inicio carga las semillas. Un estado ya
+    inicializado, aunque quede vacío por bajas, nunca se vuelve a precargar.
+    """
     try:
-        consola = crear_sistema(import_default_data, data_dir)
+        consola = crear_sistema(data_dir=data_dir)
         print("Datos listos. Cada cambio se guarda automáticamente en CSV.")
         consola.ejecutar()
     except (EOFError, KeyboardInterrupt):

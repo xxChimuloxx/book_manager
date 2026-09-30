@@ -162,7 +162,7 @@ class ConsolaUI:
         while True:
             self._limpiar_pantalla()
             print("\n========================================")
-            print("       BOOK MANAGER - Sprint 1 · v1.1.0")
+            print("       BOOK MANAGER - Sprint 1 - v1.1.2")
             print("========================================")
             for numero, tabla in enumerate(tablas, 1):
                 print(f"{numero}. Gestionar {ETIQUETAS[tabla]}")
@@ -268,7 +268,7 @@ class ConsolaUI:
             print("Ingrese s para confirmar o n para cancelar.")
         if servicio.eliminar(*clave, confirmar_cascada=True):
             print(
-                "✅ Baja completada. "
+                "Baja completada. "
                 "Todos los registros indicados se eliminaron.",
             )
         else:
@@ -290,7 +290,7 @@ class ConsolaUI:
                     )
                 elif opcion == "3":
                     servicio.crear(**self._pedir_datos(tabla))
-                    print("✅ Registro creado exitosamente.")
+                    print("Registro creado exitosamente.")
                 elif opcion == "4":
                     clave = self._clave(tabla)
                     registro = self._buscar(tabla, clave)
@@ -302,7 +302,7 @@ class ConsolaUI:
                         if tabla not in {"stock", "cotizaciones"}:
                             datos["id"] = clave[0]
                         servicio.actualizar(**datos)
-                        print("✅ Registro modificado exitosamente.")
+                        print("Registro modificado exitosamente.")
                 elif opcion == "5":
                     self._eliminar_con_confirmacion(tabla, self._clave(tabla))
                 else:

@@ -51,6 +51,13 @@ Las altas, modificaciones y bajas se guardan automáticamente en los CSV de
 son la precarga inicial; no sobrescriben los datos de trabajo. Los IDs eliminados
 no se reutilizan. La carpeta `data/` se crea al iniciar y no se sube a Git.
 
+La llamada del notebook `main(import_default_data=False)` se conserva: carga
+los datos iniciales cuando no existe estado previo y recupera el estado guardado
+en las siguientes ejecuciones. `True` tiene el mismo comportamiento de inicio;
+ninguno vuelve a cargar registros eliminados ni sobrescribe modificaciones.
+Los ocho CSV de `src/book_manager/migrations/csv/` deben estar en el repositorio,
+incluido `cotizaciones.csv`.
+
 Antes de una baja se muestran los registros afectados y se pide confirmación.
 Enter o `n` cancelan; `s` confirma y elimina también todas las dependencias:
 
