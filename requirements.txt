@@ -1,0 +1,2 @@
+# Python 3.10 o posterior.
+# Aplicación y pruebas: sólo biblioteca estándar; sin paquetes externos.

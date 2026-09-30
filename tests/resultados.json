@@ -1,0 +1,259 @@
+{
+  "version": "1.1.0",
+  "generated_at": "2026-09-30T16:51:14.702953+00:00",
+  "python": "3.12.14",
+  "tests_run": 62,
+  "success": true,
+  "failures": 0,
+  "errors": 0,
+  "tests": [
+    {
+      "prueba": "test_sistema.SistemaTest.test_actualizacion_invalida_conserva_archivo",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_actualizacion_no_existente_no_cambia_secuencia",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_apertura_false_recupera_datos_existentes",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_api_no_permite_reutilizar_id",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_baja_confirmada_por_consola",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_baja_editorial_cascada",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_baja_genero_cascada",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_baja_inexistente_no_escribe",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_baja_libro_cascada_persiste",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_baja_libro_requiere_confirmacion",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_baja_moneda_elimina_precios_no_libros",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_baja_tipo_elimina_historico",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_booleanos_no_son_ids_o_cantidades",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_cancelacion_baja_por_enter",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_cancelacion_baja_por_no",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_carpeta_parcial_no_se_reinicializa",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_claves_stock_y_cotizacion_son_inmutables",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_codigo_moneda_normalizado_y_unico",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_confirmacion_api_exige_bool",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_confirmacion_invalida_no_acepta_accidentalmente",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_consola_cotizaciones_lista_todo",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_consola_crud_ocho_entidades",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_consola_precio_nan_se_corrige_antes_del_alta",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_consola_repregunta_importes_invalidos",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_consola_stock_lista_directamente",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_cotizacion_invalida_no_persiste",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_crud_cotizacion_persiste",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_crud_editorial_persiste",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_crud_genero_persiste",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_crud_libro_persiste",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_crud_moneda_persiste",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_crud_precio_persiste",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_crud_stock_persiste",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_crud_tipo_persiste",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_csv_con_comas_comillas_y_saltos",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_csv_invalido_no_se_reemplaza_por_semillas",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_diario_fuera_de_carpeta_se_rechaza",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_edicion_enter_conserva_campos",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_fallo_de_guardado_revierte_cascada_completa",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_fallo_guardado_alta_no_consume_id",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_fecha_datetime_normalizada",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_id_no_se_reutiliza_tras_baja_y_reinicio",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_importacion_invalida_no_deja_carga_parcial",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_importes_no_finitos_y_negativos_en_entidades",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_isbn_duplicado_se_rechaza",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_lectura_no_muta_estado",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_main_eof_no_pierde_cambios",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_persistencia_en_proceso_nuevo",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_precarga_minima_ocho_entidades",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_precio_cero_es_valido",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_precio_vigente_unico",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_primera_apertura_sin_precarga",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_programa_raiz_subproceso",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_programa_src_subproceso",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_recuperacion_confirmada_completa_archivos",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_recuperacion_transaccion_interrumpida_revierte",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_referencias_inexistentes_se_rechazan",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_reimportacion_no_sobrescribe_modificaciones",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_repositorio_no_puede_borrar_dependencias_por_fuera",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_secuencia_se_conserva_aun_si_se_eliminan_todos",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_ultima_cotizacion",
+      "estado": "ok"
+    },
+    {
+      "prueba": "test_sistema.SistemaTest.test_vaciar_todas_las_entidades_no_resucita_semillas",
+      "estado": "ok"
+    }
+  ]
+}
