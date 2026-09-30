@@ -96,6 +96,10 @@ class ConsolaUI:
     def _pausar(self) -> None:
         self._input("\nPresione ENTER para continuar...")
 
+    def _limpiar_pantalla(self) -> None:
+        # Conserva la limpieza original, compatible con la entrada de Colab.
+        print("\n" * 10)
+
     def _solicitar_int(
         self, prompt: str, defecto: int | None = None, minimo: int = 1
     ) -> int:
@@ -156,6 +160,7 @@ class ConsolaUI:
     def ejecutar(self) -> None:
         tablas = tuple(self.servicios)
         while True:
+            self._limpiar_pantalla()
             print("\n========================================")
             print("       BOOK MANAGER - Sprint 1 · v1.1.0")
             print("========================================")
@@ -173,6 +178,7 @@ class ConsolaUI:
                 self._pausar()
 
     def _mostrar_submenu(self, nombre_entidad: str) -> str:
+        self._limpiar_pantalla()
         print(f"\n--- Gestión de {nombre_entidad} ---")
         print("1. Listar todos")
         print("2. Buscar por clave")
